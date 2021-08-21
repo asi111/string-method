@@ -21,7 +21,7 @@
 //       }
 //       return false
 //   }
-
+//! 3
 //   function getLestName(secStr){
 //       if(secStr.indexOf("api") != -1){
 //           return true
@@ -32,7 +32,7 @@
 //   console.log(getFirstName(firstNAme ));
 //   console.log(getLestName(lestNAme));
 
-//! 3
+//! 4
 
 // let fullName = (prompt("enter full name"));
 //  function lengthOfStr(str){
@@ -57,7 +57,7 @@
 
 // console.log( lengthOfStr(fullName), spaceFunction(fullName),firstNAme(fullName), lestNAme(fullName));
 
-//! 4
+//! 5
 // let string = (prompt("enter string"))
 // function lengthOfStr(str){
 //     if(str.length > 5) {
@@ -68,7 +68,7 @@
 
 // console.log(lengthOfStr(string));
 
-//! 5
+//! 6
 
 // let city = prompt("enter city name") 
 
@@ -80,7 +80,7 @@
 // }
 //  console.log(lengthOfStr(city ));
 
-//! 6 
+//! 7
 
 // let ourStr = prompt("enter string");
 // let ourNote = prompt ("enter note");
@@ -96,7 +96,7 @@
 
 // console.log(getStr(ourStr ,ourNote ));
 
-//! 7
+//! 8
 
 // let ourStr = prompt("enter string");
 // let ourNote = prompt("enter note");
@@ -110,7 +110,7 @@
 
 // console.log(isReturnNote(ourStr , ourNote ));
 
-//! 8
+//! 9
 // let firstName = prompt("enter lest name")
 // let lestName = prompt("enter lest name")
 
@@ -122,7 +122,7 @@
 // console.log(isReturn(firstName, lestName ));
 
 
-//! 9
+//! 10
 // let lestName = prompt("enter lest name")
 // let secLestName = prompt("enter lest name")
 // function getLestName(str, secStr) {
@@ -137,7 +137,7 @@
 
 // console.log(getLestName(lestName, secLestName));
 
-//! 10
+//! 11
 
 // let ourName = prompt("enter name here") 
 // let ourNote = prompt("enter note here")
@@ -149,3 +149,150 @@
 //  }
 
 //  console.log(getNameAndNote(ourName,ourNote));
+
+// myDate = new Date()
+// console.log(myDate);
+
+
+// ! 12 
+
+// function isReturnNote(str){
+ 
+//     return( str.substr(3 , 5));
+// }
+// isReturnNote("sayonara")
+
+//! 13
+
+// function isReturnNote(str){
+//     return (str.substring(2,str.length));
+// }
+
+// isReturnNote("sayonara")
+
+//! 14
+
+// function isReturnNote(str){
+//     console.log(str.substr(0,3));
+// }
+
+// isReturnNote("sayonara")
+
+//! 15
+
+// function  isTowNumAndStr(str,numOne,numTwo){
+
+//     if()
+
+//     console.log();
+
+// }
+
+// ! 16
+
+// function  isNumAndStr(str,index){
+//     for(let i = 0 ; i < str.length; i++){
+//     if(index> str.length ){
+//         return `to long ${index}`; 
+//     }
+
+//     return str.substr(index , 3 )
+// }
+// }
+
+//  console.log(isNumAndStr("hello" ,"6" ));      
+
+//! 17 
+
+// function  isNumAndStr(str,index){
+//     for(let i = 0 ; i < str.length; i++){
+//         if(index > str.length){
+//            return (` to long ${index}`);
+//         }
+//     }
+//     return str.substring(index , str.indexOf(" "))
+
+// }
+ 
+//   ( isNumAndStr("sayonara", "8"));
+
+  //! 18 
+
+//    function isReturnNote(str){
+//      return (str.substring(2,str.length));
+// }
+
+//  isReturnNote("sayonara")
+
+//! 19 
+//  function isReturnNote(str){
+// console.log(str.substr(0,3));
+//  }
+
+//  isReturnNote("substr")
+
+
+ //! 20 
+
+//  function printNoteAndStr( str, note){
+     
+//          if(str.indexOf(note) != -1 ){
+//            return `${str.lastIndexOf (note)}`;
+//          }
+
+//      return " not  exist "
+     
+//  }
+//  console.log(printNoteAndStr( "hello" ,"l" ) ); 
+
+//! 21
+
+// function isNoteAndStr( str, note){
+//     if(str.indexOf(note) != -1){
+//         return true
+//     }
+
+//     return false
+// }
+
+// console.log( printNoteAndStr( "sayonara", "t"));
+
+
+//! 22
+
+// function isNoteAndStr( str, note){
+//     if(str.indexOf(note) != -1){
+//         return true
+//     }
+
+//     return false
+// }
+
+// console.log( printNoteAndStr( "rrRRr", "E"));
+
+
+//! 23
+
+//  function printNoteAndStr( str, note){
+//     if(str.indexOf("a") != -1){
+//          return `${str.indexOf("a")}`
+//      }
+
+//      return "not found"
+//  }
+
+//  console.log( printNoteAndStr( "hello", "e"));
+
+
+//! 24
+
+// function lengthOfStr(str){
+//     if(str.length > 5) {
+//         return "long"
+//     }
+//     return "short"
+// }
+
+// console.log(lengthOfStr("hello "));
+
+
